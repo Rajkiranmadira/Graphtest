@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graphtest-client-side-solution",
+    "id": "c2d2508f-dbef-4c69-83a2-57c570201829",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "webApiPermissionRequests": [{"resource": "Microsoft Graph","scope": "User.ReadBasic.All"},
+  {"resource": "Microsoft Graph","scope": "site.Read.All"},{"resource": "Microsoft Graph","scope": "Sites.ReadWrite.All"}],
+    "metadata": {
+      "shortDescription": {
+        "default": "graphtest description"
+      },
+      "longDescription": {
+        "default": "graphtest description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "graphtest Feature",
+        "description": "The feature that activates elements of the graphtest solution.",
+        "id": "afe493b2-5e3b-4d92-b116-e5088e22d4c7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/graphtest.sppkg"
+  }
+}

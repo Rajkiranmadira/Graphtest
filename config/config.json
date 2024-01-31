@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graphtest-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphtest/GraphtestWebPart.js",
+          "manifest": "./src/webparts/graphtest/GraphtestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphtestWebPartStrings": "lib/webparts/graphtest/loc/{locale}.js"
+  }
+}
